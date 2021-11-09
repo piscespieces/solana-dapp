@@ -53,13 +53,13 @@
 }
 
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background: -webkit-linear-gradient(left, #b1b1b1, #0d0208);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
 .submit-gif-button {
-  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+  background: -webkit-linear-gradient(left, #b1b1b1, #0d0208);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-left: 10px;
@@ -127,4 +127,13 @@
 
 .connected-container button {
   height: 50px;
+}
+
+/* Custom */
+
+.figcaption {
+  font-style: italic;
+  color: rgb(212, 212, 212);
+  font-size: 12px;
+  margin-top: 4px;
 }
